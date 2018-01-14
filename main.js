@@ -4,7 +4,7 @@ var QueueMod=require('./queue.js')
 var queueExample=new QueueMod.Queue();
 
 
-console.log('Adding two elements to the Queue : '+"50 and 40");
+console.log('Adding two elements to the Queue : '+"50 , 40 , 30");
 console.log('First enqueue is 50');
 queueExample.enqueue(50);
 console.log('Count after enqueue: '+queueExample.getCount());
